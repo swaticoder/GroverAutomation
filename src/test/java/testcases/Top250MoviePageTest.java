@@ -61,7 +61,6 @@ public class Top250MoviePageTest extends TestBase {
 		
 		@Test(priority = 2)
 		public void SelectbyIMDBRating() {
-//			Top250MoviePage1 =new Top250MoviePage();
 			Top250MoviePage.SelectValueFromDropDown (sortby, "IMDb Rating");
 			String Movies= Top250MoviePage.Findmovie("1. The Shawshank Redemption (1994)");
 	    	Assert.assertEquals(Movies, "1. The Shawshank Redemption (1994)");
@@ -71,75 +70,31 @@ public class Top250MoviePageTest extends TestBase {
 		@Test(priority = 3)
 		public void SelectbyRanking() {
 			Top250MoviePage.SelectValueFromDropDown (sortby, "Ranking");
-			List<WebElement> noOfRowInIMDBPageTable=driver.findElements(By.xpath("//table[@class='chart full-width']//tbody/tr"));
-	        int row =noOfRowInIMDBPageTable.size();	        
-	        for(int i=1;i<row;i++) {
-	            List<WebElement> noOfColumnInIMDBPage=driver.findElements(By.xpath("//table[@class='chart full-width']//tbody/tr["+(i)+"]/td"));
-	            int column =noOfColumnInIMDBPage.size();
-	        	for(int j=1;j<column;j++) {
-	        	String text=noOfColumnInIMDBPage.get(j).getText();   
-	        	if (text.equals("1. The Shawshank Redemption (1994)"))
-	        	  finalMovie="1. The Shawshank Redemption (1994)";
-	        	break;
-	        	}
-	        }
-	    	Assert.assertEquals(finalMovie, "1. The Shawshank Redemption (1994)");
+			String Movies= Top250MoviePage.Findmovie("1. The Shawshank Redemption (1994)");
+	    	Assert.assertEquals(Movies, "1. The Shawshank Redemption (1994)");
 		}
 		
 		@Test(priority = 4)
 		public void SelectbyReleaseDate() {
 			Top250MoviePage.SelectValueFromDropDown (sortby, "Release Date");
-			List<WebElement> noOfRowInIMDBPageTable=driver.findElements(By.xpath("//table[@class='chart full-width']//tbody/tr"));
-	        int row =noOfRowInIMDBPageTable.size();	        
-	        for(int i=1;i<row;i++) {
-	            List<WebElement> noOfColumnInIMDBPage=driver.findElements(By.xpath("//table[@class='chart full-width']//tbody/tr["+(i)+"]/td"));
-	            int column =noOfColumnInIMDBPage.size();
-	        	for(int j=1;j<column;j++) {
-	        	String text=noOfColumnInIMDBPage.get(j).getText();   
-	        	if (text.equals("1. The Shawshank Redemption (1994)"))
-	        	  finalMovie="1. The Shawshank Redemption (1994)";
-	        	break;
-	        	}
-	        }
-	    	Assert.assertEquals(finalMovie, "1. The Shawshank Redemption (1994)");
+			String Movies= Top250MoviePage.Findmovie("1. The Shawshank Redemption (1994)");
+	    	Assert.assertEquals(Movies, "1. The Shawshank Redemption (1994)");
 		}
 		
 		
 		@Test(priority = 5)
 		public void SelectbyNumberofRatings() {
 			Top250MoviePage.SelectValueFromDropDown (sortby, "Number of Ratings");
-			List<WebElement> noOfRowInIMDBPageTable=driver.findElements(By.xpath("//table[@class='chart full-width']//tbody/tr"));
-	        int row =noOfRowInIMDBPageTable.size();	        
-	        for(int i=1;i<row;i++) {
-	            List<WebElement> noOfColumnInIMDBPage=driver.findElements(By.xpath("//table[@class='chart full-width']//tbody/tr["+(i)+"]/td"));
-	            int column =noOfColumnInIMDBPage.size();
-	        	for(int j=1;j<column;j++) {
-	        	String text=noOfColumnInIMDBPage.get(j).getText();   
-	        	if (text.equals("1. The Shawshank Redemption (1994)"))
-	        	  finalMovie="1. The Shawshank Redemption (1994)";
-	        	break;
-	        	}
-	        }
-	    	Assert.assertEquals(finalMovie, "1. The Shawshank Redemption (1994)");
+			String Movies= Top250MoviePage.Findmovie("1. The Shawshank Redemption (1994)");
+	    	Assert.assertEquals(Movies, "1. The Shawshank Redemption (1994)");
 		}
 			
 		
 		@Test(priority = 6)
 		public void SelectbyYourRating() {
 			Top250MoviePage.SelectValueFromDropDown (sortby, "Your Rating");
-			List<WebElement> noOfRowInIMDBPageTable=driver.findElements(By.xpath("//table[@class='chart full-width']//tbody/tr"));
-	        int row =noOfRowInIMDBPageTable.size();	        
-	        for(int i=1;i<row;i++) {
-	            List<WebElement> noOfColumnInIMDBPage=driver.findElements(By.xpath("//table[@class='chart full-width']//tbody/tr["+(i)+"]/td"));
-	            int column =noOfColumnInIMDBPage.size();
-	        	for(int j=1;j<column;j++) {
-	        	String text=noOfColumnInIMDBPage.get(j).getText();   
-	        	if (text.equals("1. The Shawshank Redemption (1994)"))
-	        	  finalMovie="1. The Shawshank Redemption (1994)";
-	        	break;
-	        	}
-	        }
-	    	Assert.assertEquals(finalMovie, "1. The Shawshank Redemption (1994)");
+			String Movies= Top250MoviePage.Findmovie("1. The Shawshank Redemption (1994)");
+	    	Assert.assertEquals(Movies, "1. The Shawshank Redemption (1994)");
 		}
 		
 		@Test(priority = 7)

@@ -25,17 +25,7 @@ public class WesternPageTest extends TestBase {
 	@FindBy(name="sort")
     public WebElement sortby;
 	
-/*	@FindBy(xpath="//a[contains(text(),'User Rating')]")
-    public WebElement UserRating;
-    
-	
-	@BeforeClass
-	 public void Up() { 
 
-	    PageFactory.initElements(driver, this);
-	       
-	}
-*/	
 	
 	
     @Test (priority = 8)

@@ -38,8 +38,7 @@ public class TestBase {
 			driver=new FirefoxDriver();
 			
 		}
-//    	System.setProperty("webdriver.chrome.driver","C:/Users/swati/eclipse-workspace/FreeCRMTest/src/main/java/com/crm/qa/util/chromedriver_win32/chromedriver.exe");
-		 
+	 
 
     	driver.manage().deleteAllCookies();
         driver.get("http://www.imdb.com/chart/top");

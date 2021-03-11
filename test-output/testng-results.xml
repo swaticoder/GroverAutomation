@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="204438" started-at="2021-03-11T22:05:26 CET" finished-at="2021-03-11T22:08:50 CET">
+  <suite name="Default suite" duration-ms="209681" started-at="2021-03-12T00:25:42 CET" finished-at="2021-03-12T00:29:12 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="204438" started-at="2021-03-11T22:05:26 CET" finished-at="2021-03-11T22:08:50 CET">
+    <test name="Default test" duration-ms="209681" started-at="2021-03-12T00:25:42 CET" finished-at="2021-03-12T00:29:12 CET">
       <class name="testcases.Top250MoviePageTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SetUp" is-config="true" duration-ms="23995" started-at="2021-03-11T22:05:26 CET" finished-at="2021-03-11T22:05:50 CET">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SetUp" is-config="true" duration-ms="29135" started-at="2021-03-12T00:25:42 CET" finished-at="2021-03-12T00:26:11 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="MovieList()[pri:1, instance:testcases.Top250MoviePageTest@7f13d6e]" name="MovieList" duration-ms="35788" started-at="2021-03-11T22:05:50 CET" finished-at="2021-03-11T22:06:26 CET">
+        <test-method status="PASS" signature="MovieList()[pri:1, instance:testcases.Top250MoviePageTest@7f13d6e]" name="MovieList" duration-ms="23554" started-at="2021-03-12T00:26:12 CET" finished-at="2021-03-12T00:26:35 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MovieList -->
-        <test-method status="PASS" signature="SelectbyIMDBRating()[pri:2, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyIMDBRating" duration-ms="50023" started-at="2021-03-11T22:06:26 CET" finished-at="2021-03-11T22:07:16 CET">
+        <test-method status="PASS" signature="SelectbyIMDBRating()[pri:2, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyIMDBRating" duration-ms="26426" started-at="2021-03-12T00:26:35 CET" finished-at="2021-03-12T00:27:02 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectbyIMDBRating -->
-        <test-method status="PASS" signature="SelectbyRanking()[pri:3, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyRanking" duration-ms="20457" started-at="2021-03-11T22:07:16 CET" finished-at="2021-03-11T22:07:36 CET">
+        <test-method status="PASS" signature="SelectbyRanking()[pri:3, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyRanking" duration-ms="30198" started-at="2021-03-12T00:27:02 CET" finished-at="2021-03-12T00:27:32 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectbyRanking -->
-        <test-method status="PASS" signature="SelectbyReleaseDate()[pri:4, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyReleaseDate" duration-ms="22059" started-at="2021-03-11T22:07:36 CET" finished-at="2021-03-11T22:07:58 CET">
+        <test-method status="PASS" signature="SelectbyReleaseDate()[pri:4, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyReleaseDate" duration-ms="30458" started-at="2021-03-12T00:27:32 CET" finished-at="2021-03-12T00:28:02 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectbyReleaseDate -->
-        <test-method status="PASS" signature="SelectbyNumberofRatings()[pri:5, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyNumberofRatings" duration-ms="24364" started-at="2021-03-11T22:07:58 CET" finished-at="2021-03-11T22:08:23 CET">
+        <test-method status="PASS" signature="SelectbyNumberofRatings()[pri:5, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyNumberofRatings" duration-ms="29431" started-at="2021-03-12T00:28:02 CET" finished-at="2021-03-12T00:28:32 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectbyNumberofRatings -->
-        <test-method status="PASS" signature="SelectbyYourRating()[pri:6, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyYourRating" duration-ms="18681" started-at="2021-03-11T22:08:23 CET" finished-at="2021-03-11T22:08:41 CET">
+        <test-method status="PASS" signature="SelectbyYourRating()[pri:6, instance:testcases.Top250MoviePageTest@7f13d6e]" name="SelectbyYourRating" duration-ms="29559" started-at="2021-03-12T00:28:32 CET" finished-at="2021-03-12T00:29:01 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectbyYourRating -->
-        <test-method status="PASS" signature="Clickonlink()[pri:7, instance:testcases.Top250MoviePageTest@7f13d6e]" name="Clickonlink" duration-ms="8652" started-at="2021-03-11T22:08:41 CET" finished-at="2021-03-11T22:08:50 CET">
+        <test-method status="PASS" signature="Clickonlink()[pri:7, instance:testcases.Top250MoviePageTest@7f13d6e]" name="Clickonlink" duration-ms="10356" started-at="2021-03-12T00:29:01 CET" finished-at="2021-03-12T00:29:12 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Clickonlink -->
